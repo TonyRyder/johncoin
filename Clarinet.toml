@@ -1,0 +1,10 @@
+[project]
+name = "johncoin"
+description = "JohnCoin fungible token (Clarity/Clarinet)"
+authors = ["anthony"]
+
+[contracts.johncoin]
+path = "contracts/johncoin.clar"
+clarity_version = 2
+epoch = "2.4"
+depends_on = []
